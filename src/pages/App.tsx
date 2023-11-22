@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { nanoid } from "@reduxjs/toolkit";
 
-import { useAppSelector, useAppDispatch } from "./store/hooks";
-import { Book, addBook, deleteBook } from "./store/features/books/bookSlice";
-import { RootState } from "./store/store";
+import { useAppSelector, useAppDispatch } from "../store/hooks";
+import { Book, addBook, deleteBook } from "../store/features/books/bookSlice";
+import { RootState } from "../store/store";
 
 const BookItem = ({ book }: { book: Book }) => {
   const [show, setShow] = useState(false);
