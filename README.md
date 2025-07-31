@@ -1,4 +1,4 @@
-# Book adding and deleting app with redux toolkit basics
+# redux toolkit basics
 
 1. undestanding the basics of Redux toolkit
     a. configureStore
